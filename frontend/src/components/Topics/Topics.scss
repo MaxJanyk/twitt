@@ -1,0 +1,43 @@
+.topics {
+    overflow: hidden;
+    border-radius: 15px;
+    margin-bottom: 15px;
+
+    background-color: rgb(245, 248, 250);
+    border: 1px solid rgb(245, 248, 250);
+
+    &__loading {
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 15px 10px 15px;
+        border-bottom: 1px solid rgb(230, 236, 240);
+    }
+
+    &__title {
+        margin: 0;
+        font-size: 19px;
+        font-weight: 800;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu,
+            'Helvetica Neue', sans-serif;
+        color: rgb(20, 23, 26);
+    }
+
+    &__settings {
+        display: flex;
+        color: rgba(29, 161, 242, 1);
+    }
+
+    &__footer {
+        display: block;
+        width: 100%;
+        padding: 15px;
+    }
+}

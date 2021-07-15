@@ -1,0 +1,29 @@
+.sidebar {
+    display: none;
+    margin-right: 10px;
+
+    @media (min-width: 576px) {
+    }
+
+    @media (min-width: 768px) {
+    }
+
+    @media (min-width: 992px) {
+        display: block;
+        width: 290px;
+    }
+
+    @media (min-width: 1200px) {
+        width: 350px;
+    }
+
+    @media (min-width: 1400px) {
+    }
+
+    &__inner {
+        padding-top: 10px;
+        padding-bottom: 59px;
+        position: sticky;
+        top: -200px;
+    }
+}
